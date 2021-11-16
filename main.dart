@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/WeatherForcast/Weather_forcast.dart';
+import 'package:flutter_application_1/flutter_maps/simple_google_maps/show_maps.dart';
 import 'package:flutter_application_1/model/parsing-json/json-parsing.dart';
 import 'package:flutter_application_1/model/parsing-json/parsing_json_name.dart';
 
@@ -29,6 +31,6 @@ TextTheme _addTexttheme(TextTheme base) {
 void main() {
   runApp(MaterialApp(
     // theme: _apptheme,
-    home: Json_Parsing(),
+    home: SimpleGoogleMap(),
   ));
 }
